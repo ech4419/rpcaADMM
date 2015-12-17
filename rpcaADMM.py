@@ -86,7 +86,7 @@ def rpcaADMM(data):
 
     g2_max = norm(hstack(A).T,inf)
     g3_max = norm(A,2)
-    g2 = 0.15*g2_max
+    g2 = inf*g2_max
     g3 = 0.15*g3_max
 
     MAX_ITER = 100
